@@ -1,0 +1,17 @@
+{% extends "layout.django" %}
+
+{% block title %}Skills - Nick Dieda{% endblock %}
+
+{% block content %}
+<section class="section">
+    <h2>My Tech Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-box"><strong>Backend:</strong> Go (Golang), RESTful APIs</div>
+        <div class="skill-box"><strong>Frontend:</strong> HTML, CSS, JavaScript</div>
+        <div class="skill-box"><strong>Mobile:</strong> Flutter, Kotlin, Java</div>
+        <div class="skill-box"><strong>Languages:</strong> Dart, C, C++, Python</div>
+        <div class="skill-box"><strong>Tools:</strong> Git, Firebase, Render, Fly.io</div>
+        <div class="skill-box"><strong>Soft Skills:</strong> Leadership, Problem Solving, Self-learning</div>
+    </div>
+</section>
+{% endblock %}

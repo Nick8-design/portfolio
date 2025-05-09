@@ -1,0 +1,46 @@
+{% extends "layout.django" %}
+{% block title %}Projects - Nick Dieda{% endblock %}
+{% block content %}
+<h2>My Projects & Online Work</h2>
+
+<div class="card-container">
+    <div class="card">
+        <h3>Linux Pro</h3>
+        <p>Learn Linux commands in a fun way. Published on Google Play.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.nickdieda.linuxpro" target="_blank">View on Play Store</a>
+        <a href="https://github.com/Nick8-design/Linux-Pro" target="_blank">Source Code</a>
+    </div>
+
+    <div class="card">
+        <h3>Python Learn</h3>
+        <p>Python tutorial app with examples and code editor.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.nickdieda.pythonlearn" target="_blank">View on Play Store</a>
+        <a href="https://github.com/Nick8-design/Python-Learn" target="_blank">Source Code</a>
+    </div>
+
+    <div class="card">
+        <h3>File Storage API</h3>
+        <p>RESTful API for file upload and retrieval.</p>
+        <a href="https://files-kvpe.onrender.com/files" target="_blank">Live Demo</a>
+        <a href="https://github.com/Nick8-design/File-Storage-API" target="_blank">Source Code</a>
+    </div>
+
+    <div class="card">
+        <h3>Cloudy API</h3>
+        <p>File hosting backend hosted on Fly.io.</p>
+        <a href="https://cloudy-4jzqow.fly.dev/files" target="_blank">Live Demo</a>
+    </div>
+
+    <div class="card">
+        <h3>GitHub Profile</h3>
+        <p>Explore more of my open-source work.</p>
+        <a href="https://github.com/Nick8-design" target="_blank">Visit GitHub</a>
+    </div>
+
+    <div class="card">
+        <h3>LinkedIn</h3>
+        <p>Professional profile and resume.</p>
+        <a href="https://www.linkedin.com/in/nick-dieda-a0b623250" target="_blank">View on LinkedIn</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}Nick Dieda{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Nick Dieda</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/skills">Skills</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
+            <button id="theme-toggle">🌗</button>
+        </nav>
+    </header>
+   
+
+        <main >
+            {% block content %}{% endblock %}
+        </main>
+  
+  
+    <footer>
+        <p>&copy; 2025 Nick Dieda</p>
+    </footer>
+
+    <script>
+    // Dark mode toggle
+    document.getElementById('theme-toggle').addEventListener('click', function () {
+        document.body.classList.toggle('dark-theme');
+        localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
+    });
+
+    // Persist theme
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-theme');
+    }
+    </script>
+</body>
+</html>

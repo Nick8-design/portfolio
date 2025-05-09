@@ -1,0 +1,18 @@
+{% extends "layout.django" %}
+
+{% block title %}Contact Me - Nick Dieda{% endblock %}
+
+{% block content %}
+<section class="section">
+    <h2>Get in Touch</h2>
+    <p>You can reach me through the platforms below:</p>
+
+    <ul class="contact-list">
+        <li>📧 <strong>Email:</strong> <a href="mailto:nickeagle888@gmail.com">nickeagle888@gmail.com</a></li>
+        <li>📚 <strong>Student Email:</strong> <a href="mailto:comb01-048722022@student.mmust.ac.ke">comb01-048722022@student.mmust.ac.ke</a></li>
+        <li>📞 <strong>Phone:</strong> <a href="tel:+254700742362">+254 700 742362</a></li>
+        <li>🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nick-dieda-a0b623250" target="_blank">linkedin.com/in/nick-dieda-a0b623250</a></li>
+        <li>💻 <strong>GitHub:</strong> <a href="https://github.com/Nick8-design" target="_blank">github.com/Nick8-design</a></li>
+    </ul>
+</section>
+{% endblock %}

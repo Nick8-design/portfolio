@@ -1,0 +1,153 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+    transition: all 0.3s ease;
+  
+}
+
+.dark-theme {
+    background-color: #121212;
+    color: #f4f4f4;
+}
+
+header {
+    background-color: #58a1eb;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+main {
+    padding: 2rem;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    background: white;
+    color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    flex: 1 1 300px;
+    max-width: 400px;
+}
+
+.dark-theme .card {
+    
+    background: #1e1e1e;
+    color: #eee;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    background-color: #58a1eb;
+    color: white;
+    margin-top: 40%;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a, nav button {
+        display: block;
+        margin: 10px 0;
+
+    }
+}
+.section {
+    margin-top: 2rem;
+
+
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skill-box {
+    background-color: #e8e8e8;
+    color: #222;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.dark-theme .skill-box {
+    background-color: #222;
+    color: #f4f4f4;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.contact-list li {
+    margin-bottom: 0.8rem;
+}
+
+.contact-list a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #00ffd0;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}

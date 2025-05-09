@@ -1,0 +1,14 @@
+{% extends "layout.django" %}
+
+{% block title %}About Me - Nick Dieda{% endblock %}
+
+{% block content %}
+<section class="section">
+    <h2>About Me</h2>
+    <p>👋 Hi, I'm <strong>Nick Dieda</strong>, a Computer Science student at Masinde Muliro University of Science and Technology (2022–2026). I'm a self-taught, enthusiastic, and disciplined full-stack developer with a passion for backend and mobile development.</p>
+
+    <p>⚡ I enjoy building and deploying RESTful APIs, Android apps, and scalable full-stack systems. With experience in Go, Flutter, Kotlin, Java, and more — I aim to create modern, fast, and secure software.</p>
+
+    <p>💡 <strong>My Mission:</strong> To use technology creatively to solve real-world problems while continuously learning and adapting to new challenges.</p>
+</section>
+{% endblock %}

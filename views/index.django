@@ -1,0 +1,11 @@
+{% extends "layout.django" %}
+
+{% block title %}Home - Nick Dieda{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h2>Hello, I'm <span>Nick Dieda</span></h2>
+    <p>A full-stack developer passionate about Go, mobile apps, and scalable web systems.</p>
+    <a href="/projects" class="btn">View Projects</a>
+</div>
+{% endblock %}
