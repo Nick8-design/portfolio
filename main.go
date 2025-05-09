@@ -37,5 +37,9 @@ func main() {
 		return c.Render("contact", nil)
 	})
 
+	app.Get("/app-ads.txt", func(c *fiber.Ctx) error {
+		return c.SendString("google.com, pub-5272550552627150, DIRECT, f08c47fec0942fa0")
+	})
+
 	log.Fatal(app.Listen(":21888"))
 }
