@@ -15,6 +15,10 @@ func main() {
 
 	app.Static("/static", "./static")
 
+	app.Get("/ping", func(c *fiber.Ctx) error {
+		return c.JSON("pong")
+
+	})
 	app.Get("/", func(c *fiber.Ctx) error {
 		return c.Render("index", fiber.Map{
 			"Title": "Nick Dieda",
